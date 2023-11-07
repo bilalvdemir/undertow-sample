@@ -23,6 +23,17 @@ steps:
 
 - task: loadiumIntegration@1
   inputs:
-    access_key: 'Q1T6Md6WRez0JhN9OKgs'
-    secret_key: 'aHDKFlCfIMPPxxbEyh652TL5HVpY9hMUUV6ZaqaB'
-    test_key: '5kkgu3d6bbbi3o9ehsiupflm9571lid8'
+    access_key: '3J1wWbg9dV6mPFWpWNcq'
+    secret_key: 'vocpq2J8PxWbbVL9dGP8LsP5AiJTEjntOQVDqXYj'
+    createTest: true
+    test_name: 'My New Test Caglar'
+    testType: 'JMX'
+    jmeter_version: '5.0'
+    region: 'eu-west-1'
+    file_path: '$(System.DefaultWorkingDirectory)/REPLACE_WITH_FILE_NAME'
+    additionalFile: false
+    engine: '1'
+    thread: '20'
+    duration: '2'
+    iteration: '-1'
+    rampup: '10'
