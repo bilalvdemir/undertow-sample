@@ -23,8 +23,8 @@ steps:
 
 - task: loadiumIntegration@1
   inputs:
-    access_key: '3J1wWbg9dV6mPFWpWNcq'
-    secret_key: 'vocpq2J8PxWbbVL9dGP8LsP5AiJTEjntOQVDqXYj'
+    access_key: 'x194TL5l4l5XkHMcVQOx'
+    secret_key: '7NZ9liPJHM0su3zk2T7QuO2SzetbWSOzmflofcSb'
     createTest: true
     test_name: 'My New Test Caglar'
     testType: 'JMX'
