@@ -20,10 +20,10 @@ steps:
     goals: 'package'
 - task: loadiumIntegration@1
   inputs:
-    access_key: 'byA1U3RDtQYKGNOyXlFv'
-    secret_key: 'LBbqqFECYcwWW59G2MMUxTHBuwgYME9L96Lqkrla'
+    access_key: '6sAqxQLP6ov57VwPoAfM'
+    secret_key: 'dz3Ya5Kd8ro4GKNzwp3BKE9GNVMmUmDa2iw55279'
     createTest: true
-    test_name: 'My New Test'
+    test_name: 'My New Test-Caglar'
     testType: 'JMX'
     jmeter_version: '5.0'
     region: 'eu-west-1'
