@@ -19,12 +19,13 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
+
 - task: loadiumIntegration@1
   inputs:
-    access_key: 'LcnkXXaJsUl1BJ1oMB1E'
-    secret_key: '0ECXALlsMWOgqqXv0h3Cz1mql5qJxMyfeuHN2Y4I'
+    access_key: 'qExpaCZBXEfj3BapXhTY'
+    secret_key: 'NaejNmEH0x0Otd4Zfg4tdy6Zup1JJidDR2mPcuxv'
     createTest: true
-    test_name: 'My New Test Caglar'
+    test_name: 'My New Test Caglar yeni'
     testType: 'JMX'
     jmeter_version: '5.0'
     region: 'eu-west-1'
