@@ -1,6 +1,7 @@
 # Maven
 
 
+
 trigger:
 - master
 
@@ -20,20 +21,17 @@ steps:
     goals: 'package'
 - task: loadiumIntegration@1
   inputs:
-    access_key: '6sAqxQLP6ov57VwPoAfM'
-    secret_key: 'dz3Ya5Kd8ro4GKNzwp3BKE9GNVMmUmDa2iw55279'
+    access_key: 'LcnkXXaJsUl1BJ1oMB1E'
+    secret_key: '0ECXALlsMWOgqqXv0h3Cz1mql5qJxMyfeuHN2Y4I'
     createTest: true
-    test_name: 'My New Test-Caglar'
+    test_name: 'My New Test Caglar'
     testType: 'JMX'
     jmeter_version: '5.0'
     region: 'eu-west-1'
-    file_path: '$(System.DefaultWorkingDirectory)/dummy.jmx'
+    file_path: '$(System.DefaultWorkingDirectory)/REPLACE_WITH_FILE_NAME'
     additionalFile: false
-    split: false
     engine: '1'
-    thread: '50'
+    thread: '20'
     duration: '2'
     iteration: '-1'
-    rampup: '10'  
-
-
+    rampup: '10'
