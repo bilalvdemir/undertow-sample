@@ -19,17 +19,16 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-
 - task: loadiumIntegration@1
   inputs:
     access_key: 'qExpaCZBXEfj3BapXhTY'
     secret_key: 'NaejNmEH0x0Otd4Zfg4tdy6Zup1JJidDR2mPcuxv'
     createTest: true
-    test_name: 'My New Test Caglar yeni'
+    test_name: 'Caglar azure test'
     testType: 'JMX'
-    jmeter_version: '5.0'
+    jmeter_version: '5.4.3'
     region: 'eu-west-1'
-    file_path: '$(System.DefaultWorkingDirectory)/dummy.jmx'
+    file_path: '$(System.DefaultWorkingDirectory)/REPLACE_WITH_FILE_NAME'
     additionalFile: false
     engine: '1'
     thread: '20'
