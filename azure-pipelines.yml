@@ -28,7 +28,7 @@ steps:
     testType: 'JMX'
     jmeter_version: '5.4.3'
     region: 'eu-west-1'
-    file_path: '$(System.DefaultWorkingDirectory)/REPLACE_WITH_FILE_NAME'
+    file_path: '$(System.DefaultWorkingDirectory)/dummy.jmx'
     additionalFile: false
     engine: '1'
     thread: '20'
