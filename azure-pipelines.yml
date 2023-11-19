@@ -24,7 +24,7 @@ steps:
     access_key: 'qExpaCZBXEfj3BapXhTY'
     secret_key: 'NaejNmEH0x0Otd4Zfg4tdy6Zup1JJidDR2mPcuxv'
     createTest: true
-    test_name: 'My New Test Azure Test Caglar 1'
+    test_name: 'My New Test Azure Test Caglar 2'
     testType: 'JMX'
     jmeter_version: '5.4.3'
     region: 'eu-west-1'
