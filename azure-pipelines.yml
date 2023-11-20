@@ -21,17 +21,17 @@ steps:
     goals: 'package'
 - task: loadiumIntegration@1
   inputs:
-    access_key: 'qExpaCZBXEfj3BapXhTY'
-    secret_key: 'NaejNmEH0x0Otd4Zfg4tdy6Zup1JJidDR2mPcuxv'
+    access_key: 'wW6VKcCgEcnzSyA5Dtvu'
+    secret_key: 'P2zuDB3YOUL9hNmNQW6yIw3q5lGGP5CebQEP8qyT'
     createTest: true
-    test_name: 'My New Test Azure Test Caglar 9'
+    test_name: 'Hilmi-Azure-pipeline'
     testType: 'JMX'
     jmeter_version: '5.4.3'
     region: 'eu-west-1'
     file_path: '$(System.DefaultWorkingDirectory)/dummy.jmx'
     additionalFile: false
     engine: '1'
-    thread: '20'
-    duration: '2'
+    thread: '100'
+    duration: '3'
     iteration: '-1'
-    rampup: '10'
+    rampup: '60'
