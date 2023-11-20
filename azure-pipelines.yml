@@ -24,7 +24,7 @@ steps:
     access_key: 'wW6VKcCgEcnzSyA5Dtvu'
     secret_key: 'P2zuDB3YOUL9hNmNQW6yIw3q5lGGP5CebQEP8qyT'
     createTest: true
-    test_name: 'Hilmi-Azure-pipeline'
+    test_name: 'Hilmi-Azure-pipeline 2'
     testType: 'JMX'
     jmeter_version: '5.4.3'
     region: 'eu-west-1'
